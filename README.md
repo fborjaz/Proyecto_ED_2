@@ -49,8 +49,8 @@ Implementar una función que permita a los usuarios verificar la disponibilidad 
 
 ### 4. Clonamos el repositorio  y accedemos.
 ```bash
-git clone https://github.com/agustfricke/ShopZone.git
-cd ShopZone/ShopZone
+git clone https://github.com/fborjaz/Proyecto_ED_2.git
+cd Proyecto_ED_2.git
 ```
 
 ### 5. Creamos el entorno virtual y activamos.
