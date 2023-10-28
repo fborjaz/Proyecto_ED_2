@@ -41,7 +41,7 @@ Permitir a los usuarios eliminar artículos de la lista de compras.
 
 Implementar una función que permita a los usuarios verificar la disponibilidad de artículos en la lista de compras.
 
-### Instalar y Usar 🚀
+## Instalar y Usar 🚀
 
 1. Asegúrate de tener Python instalado en tu sistema. 🐍
 2. Crea un entorno virtual en la carpeta `backend/` usando `env` o tu gestor de entornos virtual preferido.
