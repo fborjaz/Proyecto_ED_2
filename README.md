@@ -91,4 +91,4 @@ npm run dev
 ```
 
 #### Abre la siguiente url e inicia session con el usuario que creaste con Django
-<a href="http://localhost:5173/">http://localhost:5173/🌟</a>
+<a href="http://localhost:5173/">http://localhost:5173/</a> 🌟
