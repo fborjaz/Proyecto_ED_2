@@ -44,46 +44,51 @@ Implementar una función que permita a los usuarios verificar la disponibilidad 
 ### Instalar y Usar 🚀
 
 1. Asegúrate de tener Python instalado en tu sistema. 🐍
-2. Crea un entorno virtual en la carpeta `backend/` usando `venv` o tu gestor de entornos virtual preferido.
+2. Crea un entorno virtual en la carpeta `backend/` usando `env` o tu gestor de entornos virtual preferido.
 3. Activa el entorno virtual. 📦
 
-```bash
-git clone https://github.com/agustfricke/ShopZone.git
-cd ShopZone/ShopZone
-
-
-
+### 4. Clonamos el repositorio  y accedemos.
 ```bash
 git clone https://github.com/agustfricke/ShopZone.git
 cd ShopZone/ShopZone
 ```
 
+### 5. Creamos el entorno virtual y activamos.
 ```bash
 python3 -m venv env
 source env/bin/activate
 ```
 
+### 6. Instalamos todas las independencias.
 ```bash
 pip install -r requirements.txt
 ```
 
+### 7. Creamos carpeta para los archivos generados.
 ```bash
 mkdir dist
 mkdir dist/static
 ```
 
+### 8. Creamos un Super User para acceder al PadAdmin.
 ```bash
 python3 manage.py createsuperuser
 ```
 
+### 9. Corremos el bakend
 ```bash
 python3 manage.py runserver
 ```
-### En una nueva terminal
+
+### 10. En una nueva terminal accedemos al frontend
 ```bash
 cd frontend
+```
+### Instalamos e iniciamos server frontend
+```bash
 npm i
 npm run dev
 ```
+
 #### Abre la siguiente url e inicia session con el usuario que creaste con Django
 <a href="http://localhost:5173/">http://localhost:5173/</a>
