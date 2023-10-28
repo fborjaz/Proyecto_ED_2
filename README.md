@@ -13,7 +13,7 @@ Este es el repositorio del proyecto "Simulador de Lista de Compras". A continuac
 |-- 📁 frontend/
 | |-- 📁 public
 | |-- 📁 src
-|-- 📁 venv/
+|-- 📁 env/
 |-- 📓 README.md
 
 ```
@@ -84,11 +84,11 @@ python3 manage.py runserver
 ```bash
 cd frontend
 ```
-### Instalamos e iniciamos server frontend
+### 11. Instalamos e iniciamos server frontend
 ```bash
 npm i
 npm run dev
 ```
 
 #### Abre la siguiente url e inicia session con el usuario que creaste con Django
-<a href="http://localhost:5173/">http://localhost:5173/</a>
+<a href="http://localhost:5173/">http://localhost:5173/🌟</a>
