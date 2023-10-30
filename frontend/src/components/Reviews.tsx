@@ -47,7 +47,7 @@ const Reviews = ({productId, reviews}: Props) => {
                     <div className="relative p-4 bg-white rounded-lg shadow dark:bg-gray-800 sm:p-5">
                         <div className="flex justify-between items-center pb-4 mb-4 rounded-t border-b sm:mb-5 dark:border-gray-600">
                             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">ProductCa
-                                Add Review
+                                Agregar una opinión
                             </h3>
                             <button
                                 onClick={() => setShow(false)}
@@ -79,7 +79,7 @@ const Reviews = ({productId, reviews}: Props) => {
                                         htmlFor="name"
                                         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                     >
-                                        Description
+                                        Descripción
                                     </label>
                                     <input
                                         value={description}
@@ -128,7 +128,7 @@ const Reviews = ({productId, reviews}: Props) => {
                                         clip-rule="evenodd"
                                     ></path>
                                 </svg>
-                                    Create Review
+                                    Crear reseña
                             </button>
                         </form>
                     </div>
@@ -140,17 +140,17 @@ const Reviews = ({productId, reviews}: Props) => {
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                     <div className="mx-auto max-w-screen-sm">
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                            Reviews of Arch Linux
+                            Reseñas de clientes
                         </h2>
                         <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
-                            Explore the reivews of this product
+                            Explora las reseñas de este producto.
                         </p>
                         <button
                         onClick={() => {
                             setShow(true)
                         }}
                         className="inline-flex items-center mx-3 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        >Create a review</button>
+                        >Crear reseña</button>
                     </div>
                 </div>
             </section>
