@@ -126,7 +126,7 @@ const EditProductPage = () => {
                     <div className="relative p-4 bg-white rounded-lg shadow dark:bg-gray-800 sm:p-5">
                         <div className="flex justify-between items-center pb-4 mb-4 rounded-t border-b sm:mb-5 dark:border-gray-600">
                             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                                Edit Product
+                                Editar Productos
                             </h3>
                             <Link
                                 to="/admin"
@@ -156,7 +156,7 @@ const EditProductPage = () => {
                                         htmlFor="name"
                                         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                     >
-                                        Name
+                                        Nombre
                                     </label>
                                     <input
                                         value={name}
@@ -174,7 +174,7 @@ const EditProductPage = () => {
                                         htmlFor="count_in_stock"
                                         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                     >
-                                        Count in Stock
+                                        Cantidad en stock
                                     </label>
                                     <input
                                         value={countInStock}
@@ -192,7 +192,7 @@ const EditProductPage = () => {
                                         htmlFor="price"
                                         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                     >
-                                        Price
+                                        Precio Unitario
                                     </label>
                                     <input
                                         value={price}
@@ -210,7 +210,7 @@ const EditProductPage = () => {
                                         htmlFor="category"
                                         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                     >
-                                        Category
+                                        Categoría
                                     </label>
                                     <input
                                         value={category}
@@ -228,7 +228,7 @@ const EditProductPage = () => {
                                         htmlFor="description"
                                         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                     >
-                                        Description
+                                        Descripción
                                     </label>
                                     <input
                                         value={description}

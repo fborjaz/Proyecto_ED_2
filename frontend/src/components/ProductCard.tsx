@@ -51,7 +51,7 @@ const ProductCard = ({ product }: Props) => {
                         onClick={() => addToCart(product)}
                         className="mb-2 inline-flex items-center mx-3 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
-                        Add to Cart
+                        Agregar al carrito
                         <svg
                             aria-hidden="true"
                             className="w-4 h-4 ml-2 -mr-1"
@@ -75,7 +75,7 @@ const ProductCard = ({ product }: Props) => {
         focus:outline-none focus:ring-blue-300 dark:bg-blue-600 
         dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
-                    View 
+                    Reseñas 
                         <svg
                             aria-hidden="true"
                             className="w-4 h-4 ml-2 -mr-1"

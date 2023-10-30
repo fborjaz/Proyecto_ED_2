@@ -90,7 +90,7 @@ const Header = () => {
                           to={'/cate'}
                           className='text-black p-2 px-4 rounded-lg hover:bg-slate-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'
                         >
-                          Categories
+                          Categorias
                         </Link>
                       </>
 
@@ -100,14 +100,14 @@ const Header = () => {
                             to={'/login'}
                             className='bg-slate-400 p-2 px-4 rounded-lg text-black dark:bg-gray-900 dark:text-white' 
                           >
-                            Log in
+                            Inicaiar Sesion
                           </Link>
 
                           <Link
                             to={'/register'}
                             className='text-black p-2 px-4 rounded-lg hover:bg-slate-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'
                           >
-                            Sign up
+                            Registrate
                           </Link>
                         </>
                       )}
@@ -243,7 +243,7 @@ const Header = () => {
                     to={'/cate'}
                     className='text-black p-2 px-4 rounded-lg hover:bg-slate-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'
                   >
-                    Categories
+                    Categorias
                   </Link>
                 </div>
 
@@ -253,14 +253,14 @@ const Header = () => {
                       to={'/login'}
                       className='bg-slate-400 p-2 px-4 rounded-lg text-black dark:bg-gray-900 dark:text-white' 
                     >
-                      Log in
+                      Inicar Sesion
                     </Link>
 
                     <Link
                       to={'/register'}
                       className='text-black p-2 px-4 rounded-lg hover:bg-slate-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'
                     >
-Sign up
+Registrate
                     </Link>
 </div>
                 )}

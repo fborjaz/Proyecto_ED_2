@@ -15,9 +15,9 @@ const CatePage = () => {
                         />
                     </Link>
                     <div className="p-5 ">
-                        <Link to={`/cate/OS`}>
+                        <Link to={`/cate/Frutas`}>
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                OS
+                                Frutas
                             </h5>
                         </Link>
                     </div>
@@ -32,9 +32,9 @@ const CatePage = () => {
                         />
                     </Link>
                     <div className="p-5 ">
-                        <Link to={`/cate/Keyboards`}>
+                        <Link to={`/cate/Perifericos`}>
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                Keyboards
+                                Perifericos
                             </h5>
                         </Link>
                     </div>
@@ -49,9 +49,9 @@ const CatePage = () => {
                         />
                     </Link>
                     <div className="p-5 ">
-                        <Link to={`/cate/Lang`}>
+                        <Link to={`/cate/Vehiculos`}>
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                Lang
+                                Vehiculos
                             </h5>
                         </Link>
                     </div>
