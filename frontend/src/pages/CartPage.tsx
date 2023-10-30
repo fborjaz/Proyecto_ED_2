@@ -273,12 +273,21 @@ const CartPage = () => {
               }}
                   >
                     <PayPalButtons 
-                    createOrder={(data, actions) => createOrder(data, actions)}
-                    onApprove={(data, actions) => onApprove(data, actions)}
+                    createOrder={(data: any, actions: any) => createOrder(data, actions)}
+                    onApprove={(data: any, actions: any) => onApprove(data, actions)}
                     style={{ layout: "horizontal" }} 
                     />
                 </PayPalScriptProvider>
         </div>
+
+        <div className="text-center">
+            <button 
+                onClick={handleSubmit} 
+                className="bg-primary-500 text-white py-2 px-4 rounded-lg font-medium hover:bg-primary-600 focus:outline-none focus:ring-4 focus:ring-primary-300"
+            >
+                Pagar
+            </button>
+            </div>
 
             </form>
           </div>
